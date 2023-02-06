@@ -3,6 +3,7 @@ import { Inter } from "@next/font/google";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Description from "@/components/Description";
+import Experience from "@/components/Experience";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function Home() {
                 <section className="container mx-auto font-preahvihear">
                     <Hero />
                     <Description />
+                    <Experience />
                 </section>
             </main>
         </>
