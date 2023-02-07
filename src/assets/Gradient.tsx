@@ -5,7 +5,7 @@ const Gradient = ({
     children,
 }: {
     className: string;
-    children: any;
+    children?: any;
 }) => {
     return (
         <div className={clsx(className, "bg-gradient-radial-primary")}>
